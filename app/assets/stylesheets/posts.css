@@ -252,8 +252,8 @@ p {
  @media screen and (max-width: 480px) { 
   /*　画面サイズが480pxまではここを読み込む　*/
   .profile-card header {
-    width: 150%;
-    height: 150%;
+    width: auto;
+    height: auto;
     padding: 30px 20px;
     line-height: 50px;
     display: block;
