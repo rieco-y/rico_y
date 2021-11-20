@@ -1,2 +1,35 @@
-<h1>Posts#index</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+<aside class="profile-card">
+  <header>
+
+    <!-- the username -->
+    <h1>矢田 理恵子 / Rieko Yata</h1>
+    <!-- here’s the avatar -->
+    <a target="_blank" href="#">
+      <%= image_tag "IMG_5978_Original.jpg", class:"hoverZoomLink" %>
+    </a>
+
+  <!-- bit of a bio; who are you? -->
+  <ul class="profile-bio">
+
+    <li>＞----<a  href="#">Portfolio</a>----＞</li>
+    <li>＞----<a href="#">Skills</a>----＞</li>
+    <li>＞----<a href="#">My Profile</a>----＞</li>
+
+  </ul>
+
+  <!-- some social links to show off -->
+  <ul class="profile-social-links">
+    <li>
+      <a target="_blank" href="https://twitter.com/Rico26362783">
+      <%= image_tag "logo_twitter_bird_icon_143203.png", class:"link-a" %>
+      </a>
+    </li>
+    <li>
+      <a target="_blank" href="https://github.com/rieco-y">
+      <%= image_tag "logo_github_icon_143196.png", class:"link-a" %>
+      </a>
+    </li>
+  </ul>
+
+  </header>
+</aside>
