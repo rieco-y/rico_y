@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :posts do
     collection do
       get 'portfolio'
+      get 'myprofile'
     end
   end
 end
