@@ -1,0 +1,97 @@
+.header {
+  background-color: #f1f8fe;
+  margin-bottom: 48px;
+  padding: 10px 0;
+}
+
+body {
+  background: #bcdee7;
+  overflow: hidden;
+  width: auto;
+  text-align: center;
+}
+
+.portfolio-card{
+  background: white;
+  margin: 35px auto;
+  width: 90%;
+  height: 90%;
+  z-index: 2; /*重なりの順番*/
+  overflow: auto;
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+}
+.inner {
+  width: 1024px;
+  margin: 0 auto;
+}
+.page-heading {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  width: calc((100% - 50px) / 3);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.card__img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.card__title {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.card__summary {
+  font-size: 18px;
+}
+.copyright {
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+}
+
+@media (max-width: 1024px) {
+  .inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .page-heading {
+    font-size: 24px;
+  }
+  .card {
+    width: 48%;
+    margin-bottom: 40px;
+  }
+
+  .card__title {
+    font-size: 20px;
+  }
+  .card__summary {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 599px) {
+  .page-heading {
+    font-size: 20px;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .card__title {
+    font-size: 18px;
+  }
+  .card__summary {
+    font-size: 14px;
+  }
+}
