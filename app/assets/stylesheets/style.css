@@ -94,4 +94,64 @@ body {
   .card__summary {
     font-size: 14px;
   }
+  .profiles{
+    display: block !important;
+  }
+  .my__body h2{
+    font-size: 20px;
+  }
+  .my__body{
+    font-size: 10px;
+    padding-left: 20px;
+  }
+  .myface{
+    width: 50%;
+    height: 50%;
+    }
+      
+}
+
+.face{
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.my__body h2{
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.myface{
+width: 250px;
+height: 250px;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+-webkit-transition: -webkit-box-shadow 0.3s ease;
+transition: box-shadow 0.3s ease;
+-webkit-box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
+box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
+}
+.myface:hover {
+  -webkit-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.profiles{
+  display: flex;
+  justify-content: space-around;
+}
+.my__body{
+  font-size: 20px;
+  text-align: left;
+}
+.content{
+  padding-bottom: 8px;
+  background: whitesmoke;
+  position: relative;
+  line-height: 1.5;
+  padding: 0.5em 0 0.5em 1.5em;
+  list-style-type: none;
+}
+
+.com{
+  padding: 0 0 10px 20px;
 }

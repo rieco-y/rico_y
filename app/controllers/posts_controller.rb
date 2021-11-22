@@ -8,4 +8,8 @@ class PostsController < ApplicationController
 
   def portfolio
   end
+
+  def myprofile
+  end
+  
 end

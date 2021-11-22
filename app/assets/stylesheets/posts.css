@@ -112,6 +112,7 @@ p {
   animation: moveIn 1s 3.1s ease forwards;
 }
 
+
 .profile-social-links {
   width: auto;
   display: inline-block;
@@ -211,7 +212,13 @@ p {
     display: inline-block;
     text-align: center;
     position: relative;
-    margin: 10px 0px;
+    text-decoration: none;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  .profile-card header .profile-bio a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
   
   .profile-card .profile-bio {
@@ -221,6 +228,7 @@ p {
     display: block;
     float: none;
   }
+
   .profile-social-links {
     width: 100%;
     display: block;
